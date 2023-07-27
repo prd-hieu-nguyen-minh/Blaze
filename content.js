@@ -1,6 +1,6 @@
 var info = {
-  "first_name": "Choose",
-  "last_name": "Time",
+  "first_name": "New",
+  "last_name": "Candidate",
   "email_prefix": "hieu.nguyen.minh",
 };
 
