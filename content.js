@@ -38,6 +38,10 @@ function fillData(map) {
   for (const [key, value] of Object.entries(map)) {
     try {
       var input = document.querySelector(key);
+      var newInput = document.querySelector(key).querySelector(key);
+      if (newInput) {
+        input = newInput;
+      }
       input.value = value;
       input.dispatchEvent(changeEvent);
     } catch (e) {
